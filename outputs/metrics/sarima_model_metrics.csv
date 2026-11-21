@@ -1,0 +1,3 @@
+Model,Forecast_Type,RMSE,MAE
+"SARIMA(0, 1, 0)x(1, 0, 0, 5)",Conditional Median,27.13107834777629,21.743474224746322
+"SARIMA(0, 1, 0)x(1, 0, 0, 5)",Bias-Corrected Mean,17.4143919644324,12.708124788067616

@@ -1,0 +1,14 @@
+Model,RMSE,MAE,Forecast_Type,Comparison_Label
+Holt Linear Trend,16.686198322371496,10.972499918715167,Single Forecast,Holt Linear Trend
+"SARIMA(0, 1, 0)x(1, 0, 0, 5)",17.4143919644324,12.708124788067616,Bias-Corrected Mean,"SARIMA(0, 1, 0)x(1, 0, 0, 5)
+(Bias-Corrected Mean)"
+"ARIMA(0, 1, 0)",17.523517366429136,12.863497382453492,Bias-Corrected Mean,"ARIMA(0, 1, 0)
+(Bias-Corrected Mean)"
+Holt Damped Trend,21.44629825712787,16.952381306288572,Single Forecast,Holt Damped Trend
+Simple Exponential Smoothing,26.762470607188334,21.393978799451396,Single Forecast,Simple Exponential Smoothing
+"ARIMA(0, 1, 0)",27.065164013970605,21.68055475850502,Conditional Median,"ARIMA(0, 1, 0)
+(Conditional Median)"
+Naive Last Value,27.065164013970627,21.680554758505043,Baseline,"Naive Last Value
+(Baseline)"
+"SARIMA(0, 1, 0)x(1, 0, 0, 5)",27.13107834777629,21.743474224746322,Conditional Median,"SARIMA(0, 1, 0)x(1, 0, 0, 5)
+(Conditional Median)"
